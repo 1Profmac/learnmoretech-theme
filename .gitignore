@@ -1,0 +1,65 @@
+notepad .gitignore
+```
+
+Click **"Paste anyway"** when the warning appears.
+
+## Step 2: Copy and paste this content into Notepad:
+```
+# WordPress Core Files (if you accidentally have any)
+/wp-admin/
+/wp-includes/
+/wp-content/plugins/
+/wp-content/uploads/
+
+# Theme-specific ignores
+*.log
+*.cache
+
+# macOS Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor Files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Node modules (if using npm)
+node_modules/
+npm-debug.log*
+
+# Compiled/Minified Files
+*.min.css
+*.min.js
+*.css.map
+*.js.map
+
+# Package manager files
+package-lock.json
+yarn.lock
+
+# Build directories
+/dist/
+/build/
+
+# Environment files
+.env
+.env.local
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
