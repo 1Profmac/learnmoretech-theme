@@ -1,0 +1,82 @@
+<svg width="1200" height="900" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FEF3C7;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFFFFF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  
+  <!-- Header -->
+  <rect x="40" y="40" width="1120" height="80" rx="16" fill="white" filter="url(#shadow)"/>
+  <text x="80" y="95" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#1F2937">
+    <tspan fill="#F97316">50+</tspan> TechBridge
+  </text>
+  <text x="950" y="90" font-family="Arial, sans-serif" font-size="16" fill="#64748B">
+    Home · About · Join Beta
+  </text>
+  
+  <!-- Hero Card -->
+  <rect x="40" y="160" width="1120" height="660" rx="24" fill="white" filter="url(#shadow)"/>
+  
+  <!-- Badge -->
+  <rect x="100" y="220" width="140" height="32" rx="16" fill="rgba(249, 115, 22, 0.1)"/>
+  <circle cx="115" cy="236" r="4" fill="#F97316"/>
+  <text x="125" y="242" font-family="Arial, sans-serif" font-size="14" font-weight="600" fill="#F97316">
+    Beta Now Open
+  </text>
+  
+  <!-- Headline -->
+  <text x="100" y="300" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#1F2937">
+    You're Not <tspan fill="#F97316">Over the Hill</tspan>.
+  </text>
+  <text x="100" y="370" font-family="Arial, sans-serif" font-size="56" font-weight="800" fill="#1F2937">
+    You're Just Getting Started.
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="100" y="430" font-family="Arial, sans-serif" font-size="24" font-weight="600" fill="#1F2937">
+    Master technology skills that matter. Build independence.
+  </text>
+  
+  <!-- Description -->
+  <text x="100" y="480" font-family="Arial, sans-serif" font-size="18" fill="#64748B">
+    Join 50+ adults using technology to reclaim independence, stay
+  </text>
+  <text x="100" y="510" font-family="Arial, sans-serif" font-size="18" fill="#64748B">
+    relevant, and create new income streams.
+  </text>
+  
+  <!-- Buttons -->
+  <rect x="100" y="560" width="280" height="60" rx="10" fill="#F97316"/>
+  <text x="150" y="597" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="white">
+    Join the Beta Waitlist
+  </text>
+  
+  <rect x="400" y="560" width="220" height="60" rx="10" fill="none" stroke="#F97316" stroke-width="2"/>
+  <text x="450" y="597" font-family="Arial, sans-serif" font-size="18" font-weight="600" fill="#F97316">
+    How It Works
+  </text>
+  
+  <!-- Watermark -->
+  <text x="1000" y="870" font-family="Arial, sans-serif" font-size="14" fill="#64748B" opacity="0.6">
+    LearnMoreTech Theme v1.0
+  </text>
+  
+  <!-- Shadow filter -->
+  <defs>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="3"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.1"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+</svg>

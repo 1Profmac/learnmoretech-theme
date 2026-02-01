@@ -1,0 +1,95 @@
+/*
+Theme Name: LearnMoreTech
+Theme URI: https://learnmoretechnologies.com
+Author: LearnMoreTech Team
+Author URI: https://learnmoretechnologies.com
+Description: Custom WordPress theme for LearnMoreTech SaaS landing page with BuddyBoss and LearnDash integration. Features modern V0 design, responsive navigation, and seamless community/course integration.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: learnmoretech
+Tags: buddyboss, learndash, education, landing-page, saas, responsive
+Requires at least: 6.0
+Tested up to: 6.4
+Requires PHP: 7.4
+
+This theme supports BuddyBoss and LearnDash platforms for community and learning management.
+*/
+
+/* 
+ * Base styles for non-landing pages
+ * Landing page uses its own CSS in landing-page/styles/main.css
+ */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    line-height: 1.6;
+    color: #1F2937;
+    background: #ffffff;
+}
+
+.site-main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+/* Default header for non-landing pages */
+.site-header {
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #F97316;
+    text-decoration: none;
+}
+
+/* Default footer for non-landing pages */
+.site-footer {
+    background: #1F2937;
+    color: #ffffff;
+    padding: 2rem 0;
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Container utility */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .header-container,
+    .footer-container,
+    .container {
+        padding: 0 1rem;
+    }
+}

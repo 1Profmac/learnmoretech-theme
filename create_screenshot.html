@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #FEF3C7 0%, #FFFFFF 100%);
+            width: 1200px;
+            height: 900px;
+            box-sizing: border-box;
+        }
+        .header {
+            background: white;
+            padding: 20px 40px;
+            border-radius: 16px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #1F2937;
+        }
+        .logo .highlight {
+            color: #F97316;
+        }
+        .nav {
+            display: flex;
+            gap: 30px;
+            font-size: 16px;
+            color: #64748B;
+        }
+        .hero {
+            background: white;
+            padding: 60px;
+            border-radius: 24px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 8px 16px;
+            background: rgba(249, 115, 22, 0.1);
+            color: #F97316;
+            border-radius: 999px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 20px;
+        }
+        .badge::before {
+            content: '';
+            width: 8px;
+            height: 8px;
+            background: #F97316;
+            border-radius: 50%;
+        }
+        h1 {
+            font-size: 56px;
+            line-height: 1.1;
+            color: #1F2937;
+            margin: 0 0 20px 0;
+            font-weight: 800;
+        }
+        h1 .highlight {
+            color: #F97316;
+        }
+        .subtitle {
+            font-size: 24px;
+            color: #1F2937;
+            font-weight: 600;
+            margin-bottom: 15px;
+        }
+        .description {
+            font-size: 18px;
+            color: #64748B;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+        .buttons {
+            display: flex;
+            gap: 15px;
+        }
+        .btn {
+            padding: 16px 32px;
+            border-radius: 10px;
+            font-size: 18px;
+            font-weight: 600;
+            border: none;
+            cursor: pointer;
+        }
+        .btn-primary {
+            background: #F97316;
+            color: white;
+        }
+        .btn-outline {
+            background: transparent;
+            color: #F97316;
+            border: 2px solid #F97316;
+        }
+        .watermark {
+            position: absolute;
+            bottom: 40px;
+            right: 40px;
+            font-size: 14px;
+            color: #64748B;
+            opacity: 0.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="logo"><span class="highlight">50+</span> TechBridge</div>
+        <div class="nav">Home · About · How It Works · Join Beta</div>
+    </div>
+    
+    <div class="hero">
+        <span class="badge">Beta Now Open</span>
+        <h1>You're Not <span class="highlight">Over the Hill</span>.<br>You're Just Getting Started.</h1>
+        <p class="subtitle">Master technology skills that matter. Build independence. Earn income.</p>
+        <p class="description">Join 50+ adults using technology to reclaim independence, stay relevant, and create new income streams.</p>
+        <div class="buttons">
+            <button class="btn btn-primary">Join the Beta Waitlist</button>
+            <button class="btn btn-outline">How It Works</button>
+        </div>
+    </div>
+    
+    <div class="watermark">LearnMoreTech Theme v1.0</div>
+</body>
+</html>
